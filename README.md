@@ -68,8 +68,10 @@ fun main(args: Array<String>) {
 ```
 
 Execute: 
+```
 $ kotlinc hello.kt -include-runtime -d hello.jar 
     -d option to include the runtime in the resultant jar to run as a jar
+```
 
 ### REPL: (Read-Eval-Print loop)
 After Successful installation of Kotlinc, go to terminal and type Kotlinc and write `println("Hello World")` and type `:quit` to exit
