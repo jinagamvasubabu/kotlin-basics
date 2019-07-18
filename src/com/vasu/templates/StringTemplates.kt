@@ -17,6 +17,14 @@ fun main(args: Array<String>) {
 
     val now = "Morning"
 
+    var bigString = """
+        hi this is vasu
+        hello
+        hi
+        excuse me
+    """.trimIndent()
+
+    println(bigString);
     // without String Interpolation
 
     println(str+" "+now)
