@@ -12,5 +12,5 @@ fun add(a: Int, b: Int): Int {
 
 @JvmOverloads
 fun mul(a: Int, b:Int=10): Int {
-    return a*b;
+    return a*b
 }
