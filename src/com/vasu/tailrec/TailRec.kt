@@ -17,7 +17,7 @@ package com.vasu.tailrec
  See How it looks like when you decompile Kotlin class, it just converts the
  */
 fun main(args: Array<String>) {
-    println(sum(100000000))
+   // println(sum(100000000))
     println(sumRec(100000000)) // 1 crore
 }
 
